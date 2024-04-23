@@ -10,11 +10,12 @@ echo Instalando Pip
 python -m ensurepip --upgrade || call :Error "Error al instalar Pip"
 echo -------------------------------------------
 
-echo Instalando dependencias: discord.py
+echo Instalando dependencias: discord.py, pytube
 pip install discord.py
+pip install pytube
 echo -------------------------------------------
-echo discord.py
+echo discord.py, pytube instalados
 
 REM Notificar al usuario que la instalación ha terminado
-echo Instalacion completa.
+echo Instalacion completa, pulse enter para cerrar
 pause
