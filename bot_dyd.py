@@ -29,12 +29,13 @@ async def help(ctx):
     
     `dd help`: Muestra los comandos (ventana actual)
     `dd link`: Muestra los links configurados en config.py
-    `dd roll`: Tira los dados, EJ: dd tira 2d20 +5V -> 2 dados de 20 caras + 5 con Ventaja
-    `dd calcula`: Calculadora rápida, EJ: dd calcula 50+10/2 -> = 30
+    `dd roll`: Tira los dados, EJ: dd roll 2d20 +5 V -> 2 dados de 20 caras + 5 con Ventaja
+    `dd calcula`: Calculadora rápida, EJ: dd calcula 50+10/2 -> = 55
     `dd sorteo`: Hace un sorteo entre los elementos separados por comas, EJ: dd sorteo 1,2,3,4 -> 3
     `dd play link_youtube`: Reproduce el audio de un link de YouTube(Depende de la conexión del bot)
-    `dd next link_youtube`: Pasa a la siguiente canción de la lista
+    `dd next`: Pasa a la siguiente canción de la lista
     `dd stop`: Para la canción en curso
+    `dd alerta`: Alerta despues de el tiempo indicado h,m,s ejemplo: dd alerta 5s
     
                 """
     embed = discord.Embed(title="Panel de Ayuda",
